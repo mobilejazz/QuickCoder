@@ -23,7 +23,7 @@
 /**
  * Main initializer.
  * @param dta The NSMutableData where the encoder will encode.
- * @param vers The version.
+ * @param version The version.
  * @return The initialized instance.
  **/
 - (id)initForWritingWithMutableData:(NSMutableData *)dta version:(int)version;
