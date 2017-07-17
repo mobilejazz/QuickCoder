@@ -22,11 +22,11 @@
 
 /**
  * Main initializer.
- * @param dta The NSMutableData where the encoder will encode.
+ * @param data The NSMutableData where the encoder will encode.
  * @param version The version.
  * @return The initialized instance.
  **/
-- (id)initForWritingWithMutableData:(NSMutableData *)dta version:(int)version;
+- (id)initForWritingWithMutableData:(NSMutableData *)data version:(int)version;
 
 /** ************************************************* **
  * @name Configuring Arhiver
