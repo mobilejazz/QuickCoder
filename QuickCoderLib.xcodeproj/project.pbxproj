@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E8ADB60117B8B8F0018031C /* QuickCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8ADB5E117B8B8F0018031C /* QuickCoder.h */; settings = {ATTRIBUTES = (); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		D2C4FAAE1F1CD708001D3653 /* QuickArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4FAAC1F1CD708001D3653 /* QuickArchiver.h */; };
-		D2C4FAAF1F1CD708001D3653 /* QuickArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4FAAD1F1CD708001D3653 /* QuickArchiver.m */; };
-		D2C4FAB11F1CD722001D3653 /* QuickCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4FAB01F1CD722001D3653 /* QuickCoding.h */; };
-		D2C4FAB41F1CD759001D3653 /* QuickUnarchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4FAB21F1CD759001D3653 /* QuickUnarchiver.h */; };
-		D2C4FAB51F1CD759001D3653 /* QuickUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4FAB31F1CD759001D3653 /* QuickUnarchiver.m */; };
-		D2C4FAB81F1CD7DD001D3653 /* QuickCoderTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4FAB61F1CD7DD001D3653 /* QuickCoderTools.h */; };
-		D2C4FAB91F1CD7DD001D3653 /* QuickCoderTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4FAB71F1CD7DD001D3653 /* QuickCoderTools.m */; };
-		D2C4FABC1F1CE81B001D3653 /* QuickCoderCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4FABA1F1CE81B001D3653 /* QuickCoderCategories.h */; };
-		D2C4FABD1F1CE81B001D3653 /* QuickCoderCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4FABB1F1CE81B001D3653 /* QuickCoderCategories.m */; };
 		D2C4FAC51F1CEC1D001D3653 /* QuickCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4FAC41F1CEC1D001D3653 /* QuickCoderTests.m */; };
 		D2C4FAC71F1CEC1D001D3653 /* libQuickCoderLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libQuickCoderLib.a */; };
 		D2C4FAD11F1CED33001D3653 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4FAD01F1CED33001D3653 /* TestObject.m */; };
+		D2E4B0C51F1CFBAB005579BE /* QuickArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4B0BB1F1CFBAB005579BE /* QuickArchiver.h */; };
+		D2E4B0C61F1CFBAB005579BE /* QuickArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0BC1F1CFBAB005579BE /* QuickArchiver.m */; };
+		D2E4B0C71F1CFBAB005579BE /* QuickArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0BC1F1CFBAB005579BE /* QuickArchiver.m */; };
+		D2E4B0C81F1CFBAB005579BE /* QuickCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4B0BD1F1CFBAB005579BE /* QuickCoder.h */; };
+		D2E4B0C91F1CFBAB005579BE /* QuickCoderCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4B0BE1F1CFBAB005579BE /* QuickCoderCategories.h */; };
+		D2E4B0CA1F1CFBAB005579BE /* QuickCoderCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0BF1F1CFBAB005579BE /* QuickCoderCategories.m */; };
+		D2E4B0CB1F1CFBAB005579BE /* QuickCoderCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0BF1F1CFBAB005579BE /* QuickCoderCategories.m */; };
+		D2E4B0CC1F1CFBAB005579BE /* QuickCoderTools.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4B0C01F1CFBAB005579BE /* QuickCoderTools.h */; };
+		D2E4B0CD1F1CFBAB005579BE /* QuickCoderTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0C11F1CFBAB005579BE /* QuickCoderTools.m */; };
+		D2E4B0CE1F1CFBAB005579BE /* QuickCoderTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0C11F1CFBAB005579BE /* QuickCoderTools.m */; };
+		D2E4B0CF1F1CFBAB005579BE /* QuickCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4B0C21F1CFBAB005579BE /* QuickCoding.h */; };
+		D2E4B0D01F1CFBAB005579BE /* QuickUnarchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E4B0C31F1CFBAB005579BE /* QuickUnarchiver.h */; };
+		D2E4B0D11F1CFBAB005579BE /* QuickUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0C41F1CFBAB005579BE /* QuickUnarchiver.m */; };
+		D2E4B0D21F1CFBAB005579BE /* QuickUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E4B0C41F1CFBAB005579BE /* QuickUnarchiver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,24 +38,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E8ADB5E117B8B8F0018031C /* QuickCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoder.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* QuickCoder_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoder_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libQuickCoderLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQuickCoderLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C4FAAC1F1CD708001D3653 /* QuickArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickArchiver.h; sourceTree = "<group>"; };
-		D2C4FAAD1F1CD708001D3653 /* QuickArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickArchiver.m; sourceTree = "<group>"; };
-		D2C4FAB01F1CD722001D3653 /* QuickCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoding.h; sourceTree = "<group>"; };
-		D2C4FAB21F1CD759001D3653 /* QuickUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickUnarchiver.h; sourceTree = "<group>"; };
-		D2C4FAB31F1CD759001D3653 /* QuickUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickUnarchiver.m; sourceTree = "<group>"; };
-		D2C4FAB61F1CD7DD001D3653 /* QuickCoderTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoderTools.h; sourceTree = "<group>"; };
-		D2C4FAB71F1CD7DD001D3653 /* QuickCoderTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCoderTools.m; sourceTree = "<group>"; };
-		D2C4FABA1F1CE81B001D3653 /* QuickCoderCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoderCategories.h; sourceTree = "<group>"; };
-		D2C4FABB1F1CE81B001D3653 /* QuickCoderCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCoderCategories.m; sourceTree = "<group>"; };
 		D2C4FAC21F1CEC1D001D3653 /* QuickCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C4FAC41F1CEC1D001D3653 /* QuickCoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickCoderTests.m; sourceTree = "<group>"; };
 		D2C4FAC61F1CEC1D001D3653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C4FACF1F1CED33001D3653 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		D2C4FAD01F1CED33001D3653 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		D2E4B0BB1F1CFBAB005579BE /* QuickArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickArchiver.h; sourceTree = "<group>"; };
+		D2E4B0BC1F1CFBAB005579BE /* QuickArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickArchiver.m; sourceTree = "<group>"; };
+		D2E4B0BD1F1CFBAB005579BE /* QuickCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoder.h; sourceTree = "<group>"; };
+		D2E4B0BE1F1CFBAB005579BE /* QuickCoderCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoderCategories.h; sourceTree = "<group>"; };
+		D2E4B0BF1F1CFBAB005579BE /* QuickCoderCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCoderCategories.m; sourceTree = "<group>"; };
+		D2E4B0C01F1CFBAB005579BE /* QuickCoderTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoderTools.h; sourceTree = "<group>"; };
+		D2E4B0C11F1CFBAB005579BE /* QuickCoderTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCoderTools.m; sourceTree = "<group>"; };
+		D2E4B0C21F1CFBAB005579BE /* QuickCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCoding.h; sourceTree = "<group>"; };
+		D2E4B0C31F1CFBAB005579BE /* QuickUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickUnarchiver.h; sourceTree = "<group>"; };
+		D2E4B0C41F1CFBAB005579BE /* QuickUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickUnarchiver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +110,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4E8ADB5E117B8B8F0018031C /* QuickCoder.h */,
-				D2C4FAB61F1CD7DD001D3653 /* QuickCoderTools.h */,
-				D2C4FAB71F1CD7DD001D3653 /* QuickCoderTools.m */,
-				D2C4FAB01F1CD722001D3653 /* QuickCoding.h */,
-				D2C4FABA1F1CE81B001D3653 /* QuickCoderCategories.h */,
-				D2C4FABB1F1CE81B001D3653 /* QuickCoderCategories.m */,
-				D2C4FAAC1F1CD708001D3653 /* QuickArchiver.h */,
-				D2C4FAAD1F1CD708001D3653 /* QuickArchiver.m */,
-				D2C4FAB21F1CD759001D3653 /* QuickUnarchiver.h */,
-				D2C4FAB31F1CD759001D3653 /* QuickUnarchiver.m */,
+				D2E4B0BA1F1CFBAB005579BE /* Source Code */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -139,6 +134,23 @@
 			path = QuickCoderTests;
 			sourceTree = "<group>";
 		};
+		D2E4B0BA1F1CFBAB005579BE /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4B0BD1F1CFBAB005579BE /* QuickCoder.h */,
+				D2E4B0C21F1CFBAB005579BE /* QuickCoding.h */,
+				D2E4B0BB1F1CFBAB005579BE /* QuickArchiver.h */,
+				D2E4B0BC1F1CFBAB005579BE /* QuickArchiver.m */,
+				D2E4B0C31F1CFBAB005579BE /* QuickUnarchiver.h */,
+				D2E4B0C41F1CFBAB005579BE /* QuickUnarchiver.m */,
+				D2E4B0BE1F1CFBAB005579BE /* QuickCoderCategories.h */,
+				D2E4B0BF1F1CFBAB005579BE /* QuickCoderCategories.m */,
+				D2E4B0C01F1CFBAB005579BE /* QuickCoderTools.h */,
+				D2E4B0C11F1CFBAB005579BE /* QuickCoderTools.m */,
+			);
+			path = "Source Code";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -146,12 +158,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C4FAB11F1CD722001D3653 /* QuickCoding.h in Headers */,
-				D2C4FAAE1F1CD708001D3653 /* QuickArchiver.h in Headers */,
-				D2C4FAB81F1CD7DD001D3653 /* QuickCoderTools.h in Headers */,
-				4E8ADB60117B8B8F0018031C /* QuickCoder.h in Headers */,
-				D2C4FABC1F1CE81B001D3653 /* QuickCoderCategories.h in Headers */,
-				D2C4FAB41F1CD759001D3653 /* QuickUnarchiver.h in Headers */,
+				D2E4B0C81F1CFBAB005579BE /* QuickCoder.h in Headers */,
+				D2E4B0C91F1CFBAB005579BE /* QuickCoderCategories.h in Headers */,
+				D2E4B0CF1F1CFBAB005579BE /* QuickCoding.h in Headers */,
+				D2E4B0D01F1CFBAB005579BE /* QuickUnarchiver.h in Headers */,
+				D2E4B0CC1F1CFBAB005579BE /* QuickCoderTools.h in Headers */,
+				D2E4B0C51F1CFBAB005579BE /* QuickArchiver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C4FAB51F1CD759001D3653 /* QuickUnarchiver.m in Sources */,
-				D2C4FABD1F1CE81B001D3653 /* QuickCoderCategories.m in Sources */,
-				D2C4FAAF1F1CD708001D3653 /* QuickArchiver.m in Sources */,
-				D2C4FAB91F1CD7DD001D3653 /* QuickCoderTools.m in Sources */,
+				D2E4B0D11F1CFBAB005579BE /* QuickUnarchiver.m in Sources */,
+				D2E4B0C61F1CFBAB005579BE /* QuickArchiver.m in Sources */,
+				D2E4B0CA1F1CFBAB005579BE /* QuickCoderCategories.m in Sources */,
+				D2E4B0CD1F1CFBAB005579BE /* QuickCoderTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E4B0D21F1CFBAB005579BE /* QuickUnarchiver.m in Sources */,
 				D2C4FAD11F1CED33001D3653 /* TestObject.m in Sources */,
+				D2E4B0CB1F1CFBAB005579BE /* QuickCoderCategories.m in Sources */,
+				D2E4B0CE1F1CFBAB005579BE /* QuickCoderTools.m in Sources */,
+				D2E4B0C71F1CFBAB005579BE /* QuickArchiver.m in Sources */,
 				D2C4FAC51F1CEC1D001D3653 /* QuickCoderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
